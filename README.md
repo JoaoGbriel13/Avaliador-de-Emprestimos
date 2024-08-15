@@ -1,6 +1,7 @@
-### README: Avaliador de Empréstimos
+Aqui está o README com a formatação corrigida para Markdown:
 
----
+```markdown
+# Avaliador de Empréstimos
 
 ## Descrição do Projeto
 
@@ -99,3 +100,6 @@ O padrão Strategy permite encapsular diferentes algoritmos de forma que eles po
 ## Considerações Finais
 
 Este projeto demonstra a aplicação prática do padrão Strategy em um contexto real, proporcionando uma base sólida para sistemas que necessitam de flexibilidade e fácil manutenção em suas regras de negócio. O código é modular e preparado para futuras expansões, como a adição de novos tipos de empréstimos ou mudanças nas regras de elegibilidade.
+```
+
+Agora, o texto está corretamente formatado em Markdown para uso no GitHub.
