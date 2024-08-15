@@ -1,6 +1,3 @@
-Aqui está o README com a formatação corrigida para Markdown:
-
-```markdown
 # Avaliador de Empréstimos
 
 ## Descrição do Projeto
@@ -62,44 +59,3 @@ A API expõe um único endpoint:
   "income": 7000.00,
   "location": "SP"
 }
-```
-
-### Exemplo de Resposta
-
-```json
-{
-  "customer": "Vuxaywua Zukiagou",
-  "loans": [
-    {
-      "type": "CONSIGNMENT",
-      "income": 2
-    },
-    {
-      "type": "PERSONAL",
-      "income": 4
-    },
-    {
-      "type": "GUARANTEED",
-      "income": 3
-    }
-  ]
-}
-```
-
-## Importância do Padrão Strategy
-
-O padrão Strategy permite encapsular diferentes algoritmos de forma que eles possam ser facilmente substituídos ou modificados sem alterar o restante do código. Isso é crucial em cenários onde as regras de negócio são complexas e podem variar, como em sistemas de avaliação de crédito. Com o uso do Strategy, podemos adicionar novas regras de empréstimo sem modificar as classes existentes, promovendo a manutenção e a escalabilidade da aplicação.
-
-## Como Executar
-
-1. Clone o repositório.
-2. Navegue até o diretório do projeto.
-3. Execute o comando `mvn spring-boot:run` para iniciar a aplicação.
-4. Use um cliente REST como Postman ou cURL para interagir com o endpoint `/customer-loans`.
-
-## Considerações Finais
-
-Este projeto demonstra a aplicação prática do padrão Strategy em um contexto real, proporcionando uma base sólida para sistemas que necessitam de flexibilidade e fácil manutenção em suas regras de negócio. O código é modular e preparado para futuras expansões, como a adição de novos tipos de empréstimos ou mudanças nas regras de elegibilidade.
-```
-
-Agora, o texto está corretamente formatado em Markdown para uso no GitHub.
